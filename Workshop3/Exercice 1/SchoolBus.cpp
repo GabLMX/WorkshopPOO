@@ -3,7 +3,6 @@
 #include "SchoolBus.hpp"
 
 SchoolBus::SchoolBus(std::string sn) : school_name(sn){
-    countbigbus += 1;
     /*
     school_name = sn;
     */
