@@ -77,7 +77,6 @@ public:
 
     T *get(int i) { return els[i]; }
 
-    /*
     void print() {
         cout << "[";
         if(count > 0) {
@@ -85,17 +84,6 @@ public:
             cout << array_element_to_string(els[i]) << ", ";
         }
         cout << array_element_to_string(els[count - 1]);
-        }
-        cout << "]";
-    }
-    */
-   void print() {
-        cout << "[";
-        if(count > 0) {
-        for(int i = 0; i < count - 1; i++) {
-            cout << els[i] << ", ";
-        }
-        cout << els[count - 1];
         }
         cout << "]";
     }
